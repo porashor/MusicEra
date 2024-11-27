@@ -1,9 +1,12 @@
 import React from 'react'
+import Navber from './Components/Navber'
+import Banner from './Components/Banner'
 
 const App = () => {
   return (
-    <div>
-      this is app section  
+    <div className='font-serif'>
+      <Navber/>
+      <Banner/>
     </div>
   )
 }
