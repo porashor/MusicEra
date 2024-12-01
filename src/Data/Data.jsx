@@ -35,6 +35,8 @@ import Image4 from "../assets/818-media-04.png"
 import Image5 from "../assets/818-media-05.png"
 
 
+import ServiceImage from "../assets/Service-1.jpeg"
+
 export const serviceData = [
     {
         name: "Events",
@@ -58,4 +60,38 @@ export const serviceData = [
     }
 ]
 
+
+
+export const serviceDataDe = [
+    {
+        name: "Events",
+        details: "We provide event management services where we deliver tailored experiences that meet client expectations.",
+        btn: "Request",
+        img: ServiceImage,
+    },
+    {
+        name: "Corporate Gifts",
+        details: "We provide event management services where we deliver tailored experiences that meet client expectations.",
+        btn: "Request",
+        img: ServiceImage,
+    },
+    {
+        name: "Exhibitions",
+        details: "We provide event management services where we deliver tailored experiences that meet client expectations.",
+        btn: "Request",
+        img: ServiceImage,
+    },
+    {
+        name: "Printing",
+        details: "We provide event management services where we deliver tailored experiences that meet client expectations.",
+        btn: "Request",
+        img: ServiceImage,
+    },
+    {
+        name: "Design",
+        details: "We provide event management services where we deliver tailored experiences that meet client expectations.",
+        btn: "Request",
+        img: ServiceImage,
+    },
+]
 
