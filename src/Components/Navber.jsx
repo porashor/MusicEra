@@ -23,7 +23,7 @@ const Navber = () => {
             </ul>
             {/* mobile navbar  */}
             <div className='lg:hidden text-2xl relative'>
-                {nav ? <CgMenu onClick={()=>setNav(false)}/> : <BiX onClick={()=>setNav(true)}/>}
+                {nav ? <BiX onClick={()=>setNav(false)}/> : <CgMenu onClick={()=>setNav(true)}/>}
                 <div className={`w-[180px] min-h-[200px] absolute top-[100px] left-[-150px] bg-black/90 rounded-xl  ${nav? "" : "hidden"}`}>
                     {/* nav text here  */}
                     <ul className={`text-xl  my-2 mx-3`}>
