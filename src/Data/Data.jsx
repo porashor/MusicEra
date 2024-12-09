@@ -95,3 +95,38 @@ export const serviceDataDe = [
     },
 ]
 
+
+
+export const portfolioData = [
+    {
+        name: "Nature",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+    {
+        name: "Urban",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+    {
+        name: "Wildlife",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+    {
+        name: "Nature",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+    {
+        name: "Nature",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+    {
+        name: "Nature",
+        btn: "View Collection",
+        img: ServiceImage
+    },
+]
+

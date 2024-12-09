@@ -1,9 +1,10 @@
 import React from 'react'
+import HelloForm from '../Components/HelloForm'
 
 const Contact = () => {
   return (
     <div>
-      this is contact section
+      <HelloForm/>
     </div>
   )
 }
