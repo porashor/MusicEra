@@ -10,7 +10,7 @@ const OurService = () => {
         {/* header section  */}
         <Header> Our Service</Header>
         {/* main section  */}
-        <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 justify-center gap-[5rem] my-4'>{serviceData.map((item, index)=>(
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 justify-center gap-[5rem] my-4'>{serviceData.map((item, index)=>(
             <div className='w-[200px]' key={index}>
                 <div className='w-full aspect-square bg-custom rounded-full flex items-center justify-center my-6'>
                     <img className='w-[90px]' src={item.icon} alt="" />
