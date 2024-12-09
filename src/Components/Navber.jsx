@@ -3,13 +3,14 @@ import logo from "../assets/Logo-favicon.png"
 import { navberLinks } from '../Data/Data'
 import { BiX } from 'react-icons/bi';
 import { CgMenu } from 'react-icons/cg';
+import { Link } from 'react-router-dom';
 const Navber = () => {
     const [nav, setNav] = useState(false);
   return (
     <div className='bg-custom text-navText'>
         <div className='w-[90%] mx-auto my-0 flex items-center justify-between'>
             {/* logo section  */}
-            <div><img src={logo} alt="" className='w-[80px]'/></div>
+            <div><Link to={"/"}><img src={logo} alt="" className='w-[80px]'/></Link></div>
             {/* nav section  */}
             <ul className='hidden my-10 text-1xl xl:text-2xl lg:flex items-center justify-between gap-5 '>
                 {navberLinks.map((item, index)=>(
